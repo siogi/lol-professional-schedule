@@ -66,7 +66,6 @@ def transform_schedule(scheduled_matches):
         # if datetime.now().date() != match_time_dt.date():
         #     continue
 
-        print(match['league']['name'])
         if match['league']['name'] not in config['selected_leagues']:
             continue
 
